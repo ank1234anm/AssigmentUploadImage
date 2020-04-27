@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvVideo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    card_view:cardElevation="1dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="0dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <LinearLayout
+        android:id="@+id/llVideoInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="6"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="60"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtArtistName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Michel Jack"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTrackName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thriller"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.9usd"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtreleaseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12-13"
+                android:maxLines="2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txtPrimaryGenreName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="pop"
+                android:maxLines="3"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

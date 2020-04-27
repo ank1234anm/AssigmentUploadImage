@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "610985253629",
+    "firebase_url": "https://assigment-1c5d1.firebaseio.com",
+    "project_id": "assigment-1c5d1",
+    "storage_bucket": "assigment-1c5d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610985253629:android:f728d3d662701f1fc23c94",
+        "android_client_info": {
+          "package_name": "com.example.ankit.assigment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610985253629-nbsjlmog489jeas22uof74nftcrk86ge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIkiZdljfNu2hI0qpWpg12tY58M3u5mfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610985253629-nbsjlmog489jeas22uof74nftcrk86ge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
